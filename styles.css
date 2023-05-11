@@ -1987,3 +1987,8 @@ a {
     gap: 10px;
   }
 }
+@media (max-width: 320px) {
+  .partner-logo div img {
+    width: 50px;
+  }
+}

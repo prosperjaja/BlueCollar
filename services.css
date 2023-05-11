@@ -160,7 +160,6 @@ body {
   gap: clamp(1rem, 2vw, 1.562rem);
   padding-block: clamp(1.5rem, 4vw, 3.75rem);
   padding-inline: clamp(1.25rem, 3vw, 2.5rem);
-
   place-items: start;
   background: #f4f4f4;
 }
@@ -310,7 +309,12 @@ body {
   .gavin-wrap {
     grid-template-columns: repeat(2, 1fr);
   }
-
+  .hero-wrap {
+    width: 82%;
+    margin: 0 auto;
+    text-align: start;
+    padding-top: 8rem;
+  }
   .hero-section {
     background-image: url(./images/about-background.png);
     background-size: cover;
