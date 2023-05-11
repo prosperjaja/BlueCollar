@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.hero-section {
+  background-image: url(./images/ourproject-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
+  height: 50vh;
+}
+.executioners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: clamp(2.5rem, 6vw, 5rem);
+}
+.hero-section h1 {
+  text-align: center;
+  font-size: clamp(2.2rem, 4vw, 3.7rem);
+  font-weight: 800;
+  color: #fff;
+}
+.artisans {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: clamp(0.8rem, 1.5vw, 1.25rem);
+}
+.artisans div {
+  background-color: #fff;
+  padding: clamp(0.8rem, 1.5vw, 1.25rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dddddd;
+}
+@media (max-width: 1700px) {
+  .artisans div img {
+    width: 18.75rem;
+  }
+  .artisans div {
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .artisans h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+}
+@media (max-width: 1354px) {
+  .artisans div img {
+    width: 15.62rem;
+  }
+  .artisans div {
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .artisans h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+}
+@media (max-width: 1176px) {
+  .artisans {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: clamp(0.8rem, 1.5vw, 1.25rem);
+  }
+  .artisans div img {
+    width: 18.75rem;
+  }
+}
+@media (max-width: 1019px) {
+  .artisans {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: clamp(0.8rem, 1.5vw, 1.25rem);
+  }
+  .artisans div img {
+    width: 18.75rem;
+  }
+}
+@media (max-width: 849px) {
+  .artisans {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: clamp(0.8rem, 1.5vw, 1.25rem);
+  }
+  .artisans div img {
+    width: 15.62rem;
+  }
+
+  .hero-section {
+    background-image: url(./images/about-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    height: 30vh;
+  }
+}
+@media (max-width: 595px) {
+  .artisans {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: clamp(0.8rem, 1.5vw, 1.25rem);
+  }
+  .artisans div img {
+    width: 21.87rem;
+  }
+}
+@media (max-width: 425px) {
+  .artisans {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: clamp(0.8rem, 1.5vw, 1.25rem);
+  }
+  .artisans div img {
+    width: 15.62rem;
+  }
+
+  .hero-wrap {
+    width: 82%;
+    margin: 0 auto;
+    text-align: start;
+    padding-top: 5rem;
+  }
+}

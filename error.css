@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.hero-section {
+  background-image: url(./images/industry-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
+  height: 50vh;
+}
+.hero-wrap {
+  width: 82%;
+  margin: 0 auto;
+  text-align: start;
+  padding-top: 12rem;
+}
+.hero-section h1 {
+  text-align: center;
+  font-size: clamp(2.2rem, 4vw, 3.7rem);
+  font-weight: 800;
+  color: #fff;
+}
+.error-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: clamp(2.5rem, 6vw, 5rem);
+}
+.error-wrap {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.9rem, 1.4vw, 1.25rem);
+}
+.error-wrap h1 {
+  font-size: clamp(10rem, 26vw, 25rem);
+  color: #1c2752;
+  font-weight: 800;
+}
+.error-page h3 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: clamp(1.5rem, 4vw, 3.75rem);
+  color: #ffb342;
+}
+.error-page p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(1rem, 2vw, 1.56rem);
+  color: #7e7e7e;
+}
+.error-page div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.error-page button {
+  padding-block: clamp(0.9rem, 1.4vw, 1.25rem);
+  padding-inline: clamp(1.5rem, 4vw, 3.75rem);
+  background-color: #ffb342;
+  font-style: normal;
+  font-weight: 600;
+  font-size: clamp(0.9rem, 1.4vw, 1.25rem);
+  color: #1c2752;
+  border: none;
+}
+.error-page button:hover {
+  transform: scale(0.9);
+  transition: 0.5s;
+  color: #ffffff;
+}
+@media (max-width: 849px) {
+  .hero-section {
+    background-image: url(./images/about-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    height: 30vh;
+  }
+}
+@media (max-width: 425px) {
+  .hero-wrap {
+    width: 82%;
+    margin: 0 auto;
+    text-align: start;
+    padding-top: 5rem;
+  }
+}

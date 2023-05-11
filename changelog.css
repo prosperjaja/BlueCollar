@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.hero-section {
+  background-image: url(./images/changelog-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
+  height: 50vh;
+}
+.hero-section h1 {
+  text-align: center;
+  font-size: clamp(2.2rem, 4vw, 3.7rem);
+  font-weight: 800;
+  color: #fff;
+}
+.changelog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: clamp(3rem, 7vw, 6rem);
+  padding-inline: 2rem;
+}
+.changelog h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: clamp(1.4rem, 3vw, 2.8125rem);
+  color: #1c2752;
+  text-align: center;
+}
+.changelog h2 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: clamp(1.1rem, 2.5vw, 2.1875rem);
+  color: #1c2752;
+  text-align: center;
+}
+.changelog p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(0.8rem, 1.3vw, 1.125rem);
+  color: #7e7e7e;
+  text-align: center;
+}
+.changelog-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1rem, 2vw, 1.875rem);
+  border: 1px solid #dddddd;
+  padding-block: clamp(2.5rem, 6vw, 5rem);
+  padding-inline: clamp(5rem, 11vw, 10rem);
+  background: #f4f4f4;
+}
+.changelog-wrap div {
+  padding-block: clamp(1.5rem, 4vw, 3rem);
+  border: 1px solid #dddddd;
+  background-color: #fff;
+}
+@media (max-width: 849px) {
+  .hero-section {
+    background-image: url(./images/about-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    height: 30vh;
+  }
+}
+@media (max-width: 425px) {
+  .hero-wrap {
+    width: 82%;
+    margin: 0 auto;
+    text-align: start;
+    padding-top: 5rem;
+  }
+}

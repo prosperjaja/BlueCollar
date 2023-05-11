@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.hero-section {
+  background-image: url(./images/pages-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
+  height: 50vh;
+}
+.hero-wrap {
+  width: 82%;
+  margin: 0 auto;
+  text-align: start;
+  padding-top: 13rem;
+}
+.hero-section h1 {
+  text-align: center;
+  font-size: clamp(2.2rem, 4vw, 3.7rem);
+  font-weight: 800;
+}
+.base-2 img {
+  filter: grayscale(100%);
+  width: clamp(15rem, 32vw, 31.25rem);
+}
+.we-work {
+  width: 100%;
+}
+.work-wrap {
+  width: 80%;
+  margin: 0 auto;
+}
+.services {
+  display: flex;
+  align-items: start;
+  gap: clamp(1.25rem, 3vw, 2.5rem);
+}
+.commercial-one {
+  width: 40%;
+  padding-block: clamp(2.1rem, 5vw, 4.375rem);
+}
+.commercial-two {
+  width: 60%;
+  padding-block: clamp(2.1rem, 5vw, 4.375rem);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.commercial-one,
+.card-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.stack1,
+.stack2,
+.stack3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: clamp(0.9rem, 1.5vw, 1.25rem);
+}
+.stack1 {
+  background: #ffb342;
+}
+.stack2,
+.stack3 {
+  background: #f4f4f4;
+}
+.card-stack p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(0.9rem, 1.5vw, 1.25rem);
+  color: #1c2752;
+}
+.provide {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.9rem, 1.5vw, 1.25rem);
+  padding: clamp(1.4rem, 3.5vw, 3.125rem);
+  background-image: url(./images/provide-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(7.5px);
+}
+.provide p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(0.9rem, 1.5vw, 1.25rem);
+  text-align: center;
+  color: #ffffff;
+}
+.provide h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: clamp(0.9rem, 1.4vw, 1.125rem);
+  text-align: center;
+  color: #1c2752;
+}
+.provide h3 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: clamp(0.9rem, 1.5vw, 1.25rem);
+  text-align: center;
+  color: #1c2752;
+}
+.provide div:first-child {
+  padding: clamp(0.9rem, 1.5vw, 1.25rem);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.provide div:nth-child(2) {
+  background-color: #ffb342;
+  padding: clamp(0.9rem, 1.5vw, 1.25rem);
+}
+.commercial-two h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(1rem, 2vw, 1.875rem);
+  color: #1c2752;
+}
+.commercial-two p {
+  max-width: 815px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(0.9rem, 1.4vw, 1.125rem);
+  color: #7e7e7e;
+}
+.commercial-two .worker img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1;
+}
+.commercial-two .worker {
+  padding-top: clamp(1.25rem, 3vw, 2.5rem);
+  height: clamp(15rem, 32vw, 31.25rem);
+  width: clamp(21rem, 44vw, 43.75rem);
+}
+.the-list {
+  display: flex;
+  align-items: center;
+  gap: clamp(3.4rem, 8vw, 7rem);
+  /* justify-content: space-between; */
+  padding-top: clamp(1.25rem, 3vw, 2.5rem);
+}
+.install {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.9rem, 1.5vw, 1.25rem);
+}
+.install div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+@media (max-width: 849px) {
+  .services {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    /* gap: clamp(1.25rem, 3vw, 2.5rem); */
+  }
+  .commercial-one {
+    width: 100%;
+    padding-block: clamp(2.1rem, 5vw, 4.375rem);
+  }
+  .commercial-two {
+    width: 100%;
+    padding-block: clamp(2.1rem, 5vw, 4.375rem);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero-section {
+    background-image: url(./images/about-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    height: 30vh;
+  }
+}
+@media (max-width: 476px) {
+  .services {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    /* gap: clamp(1.25rem, 3vw, 2.5rem); */
+  }
+  .commercial-one {
+    width: 100%;
+    padding-block: clamp(2.1rem, 5vw, 4.375rem);
+  }
+  .commercial-two {
+    width: 100%;
+    padding-block: clamp(2.1rem, 5vw, 4.375rem);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .the-list {
+    flex-direction: column;
+  }
+
+  .hero-wrap {
+    width: 82%;
+    margin: 0 auto;
+    text-align: start;
+    padding-top: 5rem;
+  }
+}

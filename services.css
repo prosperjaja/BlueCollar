@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.hero-section {
+  background-image: url(./images/services-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
+  height: 50vh;
+}
+.hero-wrap {
+  width: 82%;
+  margin: 0 auto;
+  text-align: start;
+  padding-top: 12rem;
+}
+.hero-section h1 {
+  text-align: center;
+  font-size: clamp(2.2rem, 4vw, 3.7rem);
+  font-weight: 800;
+}
+.description-of-service {
+  width: 100%;
+}
+.description-wrap {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  gap: clamp(1.25rem, 3vw, 2.5rem);
+}
+
+.provide-2 {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.9rem, 1.5vw, 1.25rem);
+  padding-top: clamp(1rem, 2vw, 1.875rem);
+}
+.provide-2 > h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(1rem, 2vw, 1.875rem);
+  color: #1c2752;
+}
+.tele-stack {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.9rem, 1.5vw, 1.25rem);
+}
+.tele-stack div {
+  display: flex;
+  align-items: center;
+  gap: clamp(0.9rem, 1.5vw, 1.25rem);
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: clamp(0.9rem, 1.5vw, 1.25rem);
+}
+.tele-stack div img {
+  width: clamp(1rem, 2vw, 1.562rem);
+}
+.tele-stack div p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(0.8rem, 1.3vw, 1.125rem);
+  color: #7e7e7e;
+  word-spacing: 3px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: clamp(0.9rem, 1.5vw, 1.25rem);
+}
+.commercial-one {
+  margin-top: clamp(1.25rem, 3vw, 2.5rem);
+}
+.pdf,
+.doc {
+  display: flex;
+  align-items: center;
+}
+.pdf h4,
+.doc h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(0.9rem, 1.5vw, 1.25rem);
+  color: #1c2752;
+}
+.pdf h5,
+.doc h5 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(0.8rem, 1.3vw, 1.125rem);
+  color: #1c2752;
+}
+.pdf div:first-child,
+.doc div:first-child {
+  padding: 14px;
+  background-color: #1c2752;
+}
+.pdf div:nth-child(2),
+.doc div:nth-child(2) {
+  padding: 17px;
+  background: #ffb342;
+}
+.commercial-two,
+.worker-2 {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.9rem, 1.5vw, 1.25rem);
+}
+.worker-2 h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(1rem, 2vw, 1.875rem);
+  color: #1c2752;
+}
+.worker-2 p,
+.job-market p,
+.commercial-two p {
+  max-width: 815px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(0.8rem, 1.3vw, 1.125rem);
+  color: #7e7e7e;
+}
+.job-market {
+  display: flex;
+  align-items: center;
+}
+.job {
+  padding: clamp(1.25rem, 3vw, 2.5rem);
+  background-color: #ffb342;
+}
+.job p {
+  max-width: 643px;
+  font-style: italic;
+  font-weight: 700;
+  font-size: clamp(0.9rem, 1.5vw, 1.375rem);
+  color: #1c2752;
+}
+.job-market .blue {
+  width: clamp(1.5rem, 4vw, 3.75rem);
+  height: clamp(5rem, 10.5vw, 10.25rem);
+  background-color: #1c2752;
+}
+.avail {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: clamp(1rem, 2vw, 1.562rem);
+  padding-block: clamp(1.5rem, 4vw, 3.75rem);
+  padding-inline: clamp(1.25rem, 3vw, 2.5rem);
+
+  place-items: start;
+  background: #f4f4f4;
+}
+.avail > div {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+.avail div h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(1rem, 2vw, 1.562rem);
+  color: #1c2752;
+}
+.avail div p {
+  max-width: 239.02px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(0.8rem, 1.3vw, 1.125rem);
+  color: #7e7e7e;
+}
+.key-benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.key-benefits h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(1rem, 2vw, 1.875rem);
+  color: #1c2752;
+}
+.key-benefits p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(0.8rem, 1.3vw, 1.125rem);
+  color: #7e7e7e;
+}
+.invest-tech {
+  display: flex;
+  align-items: center;
+  gap: clamp(0.9rem, 1.5vw, 1.25rem);
+  padding-top: clamp(0.9rem, 1.5vw, 1.25rem);
+}
+.invest-tech .fixer img {
+  width: clamp(12rem, 27vw, 25rem);
+}
+.invest-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.9rem, 1.5vw, 1.25rem);
+}
+.invest-wrap > div {
+  display: flex;
+  align-items: center;
+  gap: clamp(0.9rem, 1.5vw, 1.25rem);
+}
+.gavin {
+  padding-top: clamp(1rem, 2vw, 1.875rem);
+}
+.gavin h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(1rem, 1.5vw, 1.375rem);
+  color: #1c2752;
+  text-align: center;
+}
+.gavin p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(0.8rem, 1.3vw, 1.125rem);
+  text-align: center;
+  color: #7e7e7e;
+}
+.gavin-wrap > div {
+  border: 1px solid #dddddd;
+  padding: clamp(0.9rem, 1.5vw, 1.25rem);
+}
+.gavin-wrap div img {
+  width: clamp(7rem, 15vw, 14.06rem);
+}
+.gavin-wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(0.9rem, 1.5vw, 1.25rem);
+  padding-top: clamp(0.9rem, 1.5vw, 1.25rem);
+}
+/* MEDIA QUERY */
+
+@media (min-width: 320px) and (max-width: 713px) {
+  .description-wrap {
+    flex-direction: column;
+  }
+  .pdf div:nth-child(2),
+  .doc div:nth-child(2) {
+    padding: 23.4px;
+  }
+  .invest-tech {
+    flex-direction: column;
+  }
+  .gavin-wrap {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-wrap {
+    width: 82%;
+    margin: 0 auto;
+    text-align: start;
+    padding-top: 5rem;
+  }
+}
+@media (max-width: 320px) {
+  .gavin-wrap {
+    grid-template-columns: 1fr;
+    overflow-x: scroll;
+  }
+  .commercial-two .worker img {
+    width: 200px;
+  }
+}
+@media (max-width: 390px) {
+  .commercial-two .worker img {
+    width: 300px;
+  }
+  .gavin-wrap {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 426px) {
+  .gavin-wrap {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 849px) {
+  .avail {
+    grid-template-columns: 1fr;
+  }
+  .job-market .blue {
+    height: 8.55rem;
+  }
+  .invest-tech {
+    flex-direction: column;
+  }
+  .invest-wrap img {
+    width: 20px;
+  }
+  .gavin-wrap {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero-section {
+    background-image: url(./images/about-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    height: 30vh;
+  }
+}
+@media (min-width: 900px) and (max-width: 1024px) {
+  .job-market .blue {
+    height: 7.55rem;
+  }
+  .pdf div:nth-child(2),
+  .doc div:nth-child(2) {
+    padding: 23.4px;
+  }
+  .invest-tech {
+    flex-direction: column;
+  }
+}
+@media (min-width: 1300px) and (max-width: 1440px) {
+  .job-market .blue {
+    height: 10.1rem;
+  }
+}
