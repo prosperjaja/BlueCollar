@@ -25,6 +25,9 @@ body {
   font-weight: 800;
   color: #fff;
 }
+.hero-wrap {
+  padding-top: 13rem;
+}
 .header-wrap {
   display: flex;
   justify-content: flex-start;

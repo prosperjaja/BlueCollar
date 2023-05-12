@@ -26,6 +26,9 @@ body {
   font-weight: 800;
   color: #fff;
 }
+.hero-wrap {
+  padding-top: 13rem;
+}
 .project-information {
   width: 100%;
   padding-block: clamp(2.5rem, 6vw, 5rem);
