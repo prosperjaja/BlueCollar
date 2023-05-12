@@ -138,6 +138,11 @@ nav {
   font-weight: 600;
   font-size: clamp(0.9rem, 1.2vw, 1.125rem);
 }
+.page-and-drop-down ul li:hover {
+  background-color: #7e7e7e;
+  padding: 20px 30px;
+  transition: 0.5s;
+}
 .hamburger {
   position: relative;
   width: 20px;
@@ -833,6 +838,7 @@ nav {
   flex-direction: column;
   text-align: start;
   gap: 5px;
+  border: 1px solid #000;
   padding-block: clamp(2.2rem, 5vw, 4.7rem);
   padding-inline: clamp(1.4rem, 3vw, 2.7rem);
   background: rgba(28, 39, 82, 0.7);
@@ -852,6 +858,7 @@ nav {
   font-size: clamp(1rem, 2vw, 1.56rem);
   color: #1c2752;
   background: #ffb342;
+  width: 90px;
 }
 .first-project div h3 {
   border: 1px solid #fff;
@@ -860,6 +867,8 @@ nav {
   font-weight: 700;
   font-size: clamp(1rem, 2vw, 1.56rem);
   color: #ffffff;
+  width: 254px;
+  white-space: nowrap;
 }
 .the-gallery {
   width: 100%;
@@ -1523,6 +1532,26 @@ a {
     /* grid-template-columns: repeat(3, 1fr); */
     gap: clamp(0.8rem, 1.5vw, 1.25rem);
   }
+  .first-project div span {
+    border: 1px solid #fff;
+    padding: clamp(0.8rem, 1.5vw, 1.25rem);
+    font-style: normal;
+    font-weight: 800;
+    font-size: clamp(0.9rem, 1.4vw, 1.25rem);
+    color: #1c2752;
+    background: #ffb342;
+    width: 80px;
+  }
+  .first-project div h3 {
+    border: 1px solid #fff;
+    padding: clamp(0.8rem, 1.5vw, 1.25rem);
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(0.9rem, 1.4vw, 1.25rem);
+    color: #ffffff;
+    width: 180px;
+    white-space: nowrap;
+  }
 }
 @media (max-width: 1024px) {
   .kennis .john:last-child {
@@ -1745,6 +1774,26 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .first-project div span {
+    border: 1px solid #fff;
+    padding: clamp(0.8rem, 1.5vw, 1.25rem);
+    font-style: normal;
+    font-weight: 800;
+    font-size: clamp(0.9rem, 1.4vw, 1.25rem);
+    color: #1c2752;
+    background: #ffb342;
+    width: 80px;
+  }
+  .first-project div h3 {
+    border: 1px solid #fff;
+    padding: clamp(0.8rem, 1.5vw, 1.25rem);
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(0.9rem, 1.4vw, 1.25rem);
+    color: #ffffff;
+    width: 180px;
+    white-space: nowrap;
   }
   .project-done,
   .choose-us {
@@ -1982,13 +2031,55 @@ a {
     display: none;
   } */
 }
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   .footer-1-wrap div:last-child {
     gap: 10px;
   }
+  .first-project div span {
+    border: 1px solid #fff;
+    padding: clamp(0.8rem, 1.3vw, 1.125rem);
+    font-style: normal;
+    font-weight: 800;
+    font-size: clamp(0.9rem, 1.3vw, 1.125rem);
+    color: #1c2752;
+    background: #ffb342;
+    width: 80px;
+  }
+  .first-project div h3 {
+    border: 1px solid #fff;
+    padding: clamp(0.8rem, 1.3vw, 1.125rem);
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(0.9rem, 1.3vw, 1.125rem);
+    color: #ffffff;
+    width: 140px;
+    white-space: nowrap;
+  }
 }
-@media (max-width: 320px) {
+@media (max-width: 365px) {
   .partner-logo div img {
     width: 50px;
+  }
+  .first-project div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .first-project div span {
+    border: 1px solid #fff;
+    padding: clamp(0.8rem, 1.3vw, 1.125rem);
+    font-style: normal;
+    font-weight: 800;
+    font-size: clamp(0.9rem, 1.3vw, 1.125rem);
+    color: #1c2752;
+    background: #ffb342;
+  }
+  .first-project div h3 {
+    border: 1px solid #fff;
+    padding: clamp(0.8rem, 1.3vw, 1.125rem);
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(0.9rem, 1.3vw, 1.125rem);
+    color: #ffffff;
   }
 }
