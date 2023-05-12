@@ -172,6 +172,9 @@ ol li {
   .project-description {
     width: 100%;
     margin: 0 auto;
+    .hero-wrap {
+      padding-top: 7rem;
+    }
   }
 
   .hero-section {

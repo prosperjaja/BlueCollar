@@ -91,12 +91,12 @@ nav {
 .logo h3 {
   font-style: normal;
   font-weight: 800;
-  font-size: clamp(1rem, 2.5vw, 2.1rem);
+  font-size: clamp(1.5srem, 2.5vw, 2.1rem);
   line-height: 44px;
   color: #1c2752;
 }
 .logo img {
-  width: clamp(1rem, 3vw, 2.75rem);
+  width: clamp(1.5rem, 3vw, 2.75rem);
 }
 .logo span {
   color: #ffb342;
@@ -203,7 +203,7 @@ nav {
   padding: 18px 16px;
   margin: 0 auto;
   width: 100%;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 .mobile-nav li:hover {
   background-color: #1e1e1e;
@@ -2030,6 +2030,9 @@ a {
   }
   .workflow {
     flex-direction: column;
+  }
+  .footer-1-wrap div:last-child {
+    gap: 10px;
   }
   /* .mobile-nav {
     display: none;
