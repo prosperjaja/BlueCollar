@@ -82,6 +82,7 @@ nav {
   line-height: 22px;
   color: #7e7e7e;
 }
+
 .logo {
   display: flex;
   align-items: center;
@@ -1107,7 +1108,7 @@ a {
 .appointment-wrap textarea {
   border: none;
 }
-.appointment-wrap input[type="submit"] {
+.appointment-wrap button {
   background-color: #ffb342;
   font-style: normal;
   font-weight: 400;
@@ -1115,7 +1116,10 @@ a {
   color: #1c2752;
   font-weight: 700;
   display: flex;
+  justify-content: center;
   align-items: center;
+  border: none;
+  padding-block: 20px;
 }
 .clients {
   width: 80%;
@@ -1884,7 +1888,7 @@ a {
     width: 82%;
     margin: 0 auto;
     text-align: start;
-    padding-top: 10rem;
+    padding-top: 8rem;
   }
 
   .artisans {
@@ -1931,7 +1935,7 @@ a {
     width: 82%;
     margin: 0 auto;
     text-align: start;
-    padding-top: 10rem;
+    padding-top: 8rem;
   }
 
   .electric-service {
