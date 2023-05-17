@@ -332,7 +332,7 @@ nav {
 }
 .footer-1-wrap div button {
   /* padding: 22.5px 40px; */
-  padding-block: clamp(1rem, 1.4vw, 1.35rem);
+  padding-block: clamp(1rem, 1.5vw, 1.382rem);
   padding-inline: clamp(1rem, 3vw, 2.5rem);
   border: none;
   background: #fff;
@@ -505,6 +505,7 @@ nav {
   margin: 0 auto;
   display: flex;
   gap: clamp(2rem, 5vw, 5rem);
+  justify-content: center;
   align-items: center;
 }
 .future-worker img {
@@ -1711,7 +1712,7 @@ a {
     gap: 20px;
   }
   .footer-1-wrap div button {
-    padding-block: clamp(0.9rem, 1.1vw, 1.25rem);
+    padding-block: clamp(0.9rem, 1.4vw, 1.3rem);
     padding-inline: clamp(1rem, 3vw, 2.5rem);
     border: none;
     background: #fff;
