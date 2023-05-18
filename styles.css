@@ -283,6 +283,10 @@ nav {
   background-color: #ffb342;
   width: 100%;
 }
+input:focus,
+textarea:focus {
+  outline: none;
+}
 .footer-1-wrap {
   width: 80%;
   margin: 0 auto;
@@ -516,6 +520,18 @@ nav {
   flex-direction: column;
   gap: 20px;
   align-items: start;
+}
+.copyrights {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+.copyrights p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
 }
 .helmet {
   display: flex;
