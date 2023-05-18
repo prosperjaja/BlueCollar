@@ -530,8 +530,9 @@ textarea:focus {
 .copyrights p {
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: clamp(0.9rem, 1.3vw, 1.125rem);
   color: #ffffff;
+  text-align: center;
 }
 .helmet {
   display: flex;
