@@ -166,9 +166,12 @@ ol {
   text-align: center;
   letter-spacing: 0.035em;
   color: #7e7e7e;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 2rem;
 }
 .quote-wrap p span {
   color: #1c2752;
+  font-weight: 700;
 }
 .hart {
   display: flex;
