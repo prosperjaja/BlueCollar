@@ -190,6 +190,9 @@ body {
     width: 100%;
     height: 30vh;
   }
+  .hero-wrap {
+    padding-top: 6rem;
+  }
 }
 @media (max-width: 767px) {
   .our-packages .section-two {

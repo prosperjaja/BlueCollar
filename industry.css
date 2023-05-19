@@ -164,6 +164,11 @@ ol li {
     margin: 0 auto;
   }
 }
+@media (max-width: 860px) {
+  .hero-wrap {
+    padding-top: 6rem;
+  }
+}
 @media (max-width: 769px) {
   .category2 div {
     height: clamp(27rem, 50vw, 49rem);
